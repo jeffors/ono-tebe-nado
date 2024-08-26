@@ -1,11 +1,9 @@
 /* место для вашего кода */
 .header {
-  width: 1052px;
-  padding: 92px 24px;
+  padding: 92px 92px 96px 46px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-content: center;
-
 }
 
 .header__menu {
@@ -14,7 +12,6 @@
 }
 
 .header__links-list {
-  padding-left: 21px;
   display: flex;
   flex-direction: row;
   list-style: circle;
@@ -25,6 +22,7 @@
   text-transform: lowercase;
   font-size: 18px;
   letter-spacing: 0.01em;
+  text-underline-offset: 4px;
 }
 
 .header__links-list-item_no-bullit {
@@ -33,6 +31,7 @@
 }
 
 .header__logo {
+  margin-left: 36px;
   display: block;
   width: 137px;
 }
@@ -48,8 +47,6 @@
   justify-self: end;
   font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 0.01em;
-  padding-right: 16px;
 }
 
 .address {
