@@ -62,24 +62,25 @@
   height: 757px;
   position: relative;
   padding: 164px 50px 237px 50px;
-  
+  z-index: -2;
+  color: #fff;
 }
 
 .overlay {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, .6);
+  z-index: -1;
 }
 
 .cover__title {
-  position: relative;
   /* display: flex;
   flex-direction: column;
   gap: 5px; */
-  z-index: 1;
+
   font-weight: bold;
   font-size: 100px;
-  color: #fff;
+
 }
 
 .aligned-text {
@@ -95,6 +96,7 @@
 
 .aligned-text_right {
   text-align: right;
+  margin-bottom: 127px;
 }
 
 .letter-spacing-extended {
@@ -104,3 +106,22 @@
 .no-letter-spacing {
   letter-spacing: 0;
 }
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 22px;
+}
+
+.cover__description-text {
+  padding-left: 28px;
+  word-spacing: 18.5px;
+}
+
+.bet-button {
+  border: 1px solid white;
+  padding: 12px 32px;
+}
+
