@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .header {
-  padding: 92px 50px 96px 50px;
+  padding: 92px 50px 92px 50px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-content: center;
@@ -51,4 +51,13 @@
 
 .address {
   font-style: normal;
+}
+
+.cover {
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 1110px;
+  height: 757px;
 }
