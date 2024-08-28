@@ -124,6 +124,41 @@
   padding: 12px 32px;
 }
 
+.lots {
+  padding: 153px 24px;
+}
+
+.lots__card-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.lots__heading {
+  padding: 27px 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .card {
   position: relative;
+  width: 334px;
+  height: 563px;
+  color:#fff;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 50px;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
 }
