@@ -153,6 +153,7 @@
   background-size: cover;
   background-position: center;
   padding: 50px 40px;
+  z-index: -1;
 }
 
 .card__title {
@@ -182,4 +183,46 @@
   text-transform: lowercase;
   font-size: 20px;
   padding: 27px 40px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: min-content auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  grid-template-areas: 
+  "logo title"
+  ". text";
+}
+
+.about__logo {
+  background-color: black;
+  border-radius: 50%;
+  padding: 40px;
+  grid-area: logo;
+}
+
+.about__logo-image {
+  display: block;
+  width: 148px;
+  height: 148px;
+}
+
+.about__title {
+  grid-area: title;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  grid-area: text;
+  font-size: 20px;
+  line-height: 24px;
 }
