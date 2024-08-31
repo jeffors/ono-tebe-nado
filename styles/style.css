@@ -152,7 +152,7 @@
   color:#fff;
   background-size: cover;
   background-position: center;
-  padding: 50px 40px;
+  padding: 51px 40px 48px 40px;
   z-index: -1;
 }
 
@@ -160,6 +160,7 @@
   font-size: 22px;
   text-decoration: underline;
   text-transform: uppercase;
+  text-underline-offset: 3px;
 }
 
 .card__text {
@@ -188,11 +189,13 @@
 }
 
 .about {
+  padding: 30px 27px 30px 70px;
   display: grid;
   grid-template-columns: min-content auto;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  column-gap: 71px;
+  row-gap: 5px;
   grid-template-areas: 
   "logo title"
   ". text";
@@ -201,8 +204,9 @@
 .about__logo {
   background-color: black;
   border-radius: 50%;
-  padding: 40px;
+  padding: 47px;
   grid-area: logo;
+
 }
 
 .about__logo-image {
