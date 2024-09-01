@@ -232,9 +232,11 @@
 }
 
 .footer {
-  padding: 150px 50px;
-  display: flex;
-  justify-content: space-between;
+  padding: 151px 50px;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer__menu {
@@ -250,6 +252,7 @@
 }
 
 .footer__social-list {
+  justify-self: end;
   display: flex;
   list-style: none;
   gap: 48px;
